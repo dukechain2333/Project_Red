@@ -91,6 +91,7 @@ def AHPgetWeight(dimension, relation):
         print("判断矩阵通过一致性检验，一致性比率为：", ci / ri)
         return weightMatrix
     else:
+        print("判断矩阵未通过一致性检验，ci的值为：", ci)
         return -1
 
 
