@@ -58,7 +58,39 @@ def AHPgetWeight(dimension, relation):
     weightMatrix = weightMatrix.reshape(dimension, 1)
     print("权重矩阵为：\n", weightMatrix)
 
-    return weightMatrix
+    # 判断一致性比率是否达标
+    eigenValue = np.linalg.eig(judgeMatrix)
+    maxEigenvalue = eigenValue[0][0]
+    ci = (maxEigenvalue - dimension) / (dimension - 1)
+
+    if dimension == 1:
+        ri = 0.001
+    elif dimension == 2:
+        ri = 0.001
+    elif dimension == 3:
+        ri = 0.58
+    elif dimension == 4:
+        ri = 0.90
+    elif dimension == 5:
+        ri = 1.12
+    elif dimension == 6:
+        ri = 1.24
+    elif dimension == 7:
+        ri = 1.32
+    elif dimension == 8:
+        ri = 1.41
+    elif dimension == 9:
+        ri = 1.45
+    elif dimension == 10:
+        ri = 1.49
+    else:
+        ri = 1.51
+
+    if ci / ri < 0.1:
+        print("判断矩阵通过一致性检验，一致性比率为：", ci / ri)
+        return weightMatrix
+    else:
+        return -1
 
 
 AHPgetWeight(5, [0.5, 4, 3, 3, 7, 5, 5, 0.5, 1 / 3, 1])
