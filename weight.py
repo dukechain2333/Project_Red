@@ -59,6 +59,7 @@ def AHPgetWeight(dimension, relation):
     print("权重矩阵为：\n", weightMatrix)
 
     # 判断一致性比率是否达标
+    # cr=ci/ri
     eigenValue = np.linalg.eig(judgeMatrix)
     maxEigenvalue = eigenValue[0][0]
     ci = (maxEigenvalue - dimension) / (dimension - 1)
