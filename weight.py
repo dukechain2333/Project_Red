@@ -3,6 +3,8 @@
 #  @createTime 2020/07/26 20:11:26
 
 import numpy as np
+import matplotlib.pyplot as plt
+from sklearn import preprocessing
 
 
 def AHPgetWeight(dimension, relation):
@@ -95,4 +97,48 @@ def AHPgetWeight(dimension, relation):
         return -1
 
 
+def dimensionShow(dimension):
+    """
+        维度运算图像显示
+
+        显示在dimension维的矩阵中共有多少种权重可能性
+
+        Args:
+            dimension(int):传入属性的个数作为矩阵的维度
+
+        Returns:
+            显示可能性与dimension的关系
+
+        """
+
+    # y轴取值
+    n = 3
+    number = np.zeros([9, 1])
+    while n <= 11:
+        total = 0
+        for i in range(1, n - 1):
+            total += i
+        number[n - 3] = 18 ** total
+        n += 1
+
+    # 输出在dimension维度情况下的可能性
+    print("在dimension维度的情况下，共有%f种判断矩阵" % number[dimension - 2])
+
+    # 将可能性组合进行min-max标准化处理
+    number = np.array(number)
+    presser = preprocessing.MinMaxScaler()
+    number_pro = presser.fit_transform(number)
+
+    # x轴范围
+    epoch = range(3, 12)
+
+    print(number_pro)
+    plt.xlabel("Dimension")
+    plt.ylabel("Times")
+    plt.title("dimension&times'relation")
+    plt.scatter(epoch, number_pro)
+    plt.show()
+
+
 AHPgetWeight(5, [0.5, 4, 3, 3, 7, 5, 5, 0.5, 1 / 3, 1])
+dimensionShow(5)
