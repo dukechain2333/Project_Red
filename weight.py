@@ -132,7 +132,6 @@ def dimensionShow(dimension):
     # x轴范围
     epoch = range(3, 12)
 
-    print(number_pro)
     plt.xlabel("Dimension")
     plt.ylabel("Times")
     plt.title("dimension&times'relation")
