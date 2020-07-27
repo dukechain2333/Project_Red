@@ -122,7 +122,7 @@ def dimensionShow(dimension):
         n += 1
 
     # 输出在dimension维度情况下的可能性
-    print("在dimension维度的情况下，共有%f种判断矩阵" % number[dimension - 2])
+    print("在%s维度的情况下，共有%f种判断矩阵" % (dimension, number[dimension - 2]))
 
     # 将可能性组合进行min-max标准化处理
     number = np.array(number)
