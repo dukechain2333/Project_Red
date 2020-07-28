@@ -38,7 +38,7 @@ def preprocessing(timeseries, weightmatrix):
 
 
 weightMatrix = AHPgetWeight(5, [0.5, 4, 3, 3, 7, 5, 5, 0.5, 1 / 3, 1])
-timeSeries = [[1, 32, 3, 4, 45],
+timeSeries = [[1, 32, 3, 14, 45],
               [6, 47, 18, 19, 10],
               [11, 2, 13, 14, 65],
               [16, 7, 18, 9, 20]]
