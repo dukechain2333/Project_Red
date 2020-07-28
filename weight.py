@@ -37,6 +37,7 @@ def AHPgetWeight(dimension, relation):
                         judgeMatrix[j, i] = 1 / relation[n]
                         n += 1
     print("判断矩阵为：\n", judgeMatrix)
+    print("------------------------------")
 
     # 通过几何平均法进行权重计算
     weightMatrix = np.zeros(dimension)
@@ -59,6 +60,7 @@ def AHPgetWeight(dimension, relation):
     # weightMatrix转置
     weightMatrix = weightMatrix.reshape(dimension, 1)
     print("权重矩阵为：\n", weightMatrix)
+    print("------------------------------")
 
     # 判断一致性比率是否达标
     # cr=ci/ri
@@ -91,9 +93,11 @@ def AHPgetWeight(dimension, relation):
 
     if ci / ri < 0.1:
         print("判断矩阵通过一致性检验，一致性比率为：", ci / ri)
+        print("------------------------------")
         return weightMatrix
     else:
         print("判断矩阵未通过一致性检验，ci的值为：", ci)
+        print("------------------------------")
         return -1
 
 
@@ -123,6 +127,7 @@ def dimensionShow(dimension):
 
     # 输出在dimension维度情况下的可能性
     print("在%s维度的情况下，共有%f种判断矩阵" % (dimension, number[dimension - 2]))
+    print("------------------------------")
 
     # 将可能性组合进行min-max标准化处理
     number = np.array(number)
@@ -137,7 +142,3 @@ def dimensionShow(dimension):
     plt.title("dimension&times'relation")
     plt.scatter(epoch, number_pro)
     plt.show()
-
-
-AHPgetWeight(5, [0.5, 4, 3, 3, 7, 5, 5, 0.5, 1 / 3, 1])
-dimensionShow(5)
