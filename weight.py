@@ -142,7 +142,3 @@ def dimensionShow(dimension):
     plt.title("dimension&times'relation")
     plt.scatter(epoch, number_pro)
     plt.show()
-
-
-AHPgetWeight(5, [0.5, 4, 3, 3, 7, 5, 5, 0.5, 1 / 3, 1])
-dimensionShow(5)
