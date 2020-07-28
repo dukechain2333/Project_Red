@@ -52,7 +52,7 @@ def kmeans_cluster(cluster, collections):
         collections(m*2的矩阵)：传入一个经过preprocessing()处理的m*2矩阵
 
     Returns:
-
+        显示聚类后的图像
     """
 
     # 创建聚类器并聚类
