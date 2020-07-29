@@ -67,6 +67,7 @@ def kmeans_cluster(cluster, collections):
     lable_collect = np.zeros([1, cluster])
     for i in y_pred:
         lable_collect[0, i] += 1
+
     print("共有%d个样本" % len(y_pred))
     print("样本标签如下：\n", y_pred)
     for i in range(cluster):
@@ -79,6 +80,7 @@ def kmeans_cluster(cluster, collections):
         if lable_collect[0, i] < min_element:
             min_element = lable_collect[0, i]
             min_label = i
+
     print("最有可能是异常标签的是：%d\n标签内共有样本：%d" % (min_label, min_element))
 
     print("------------------------------")
@@ -108,7 +110,7 @@ def prediction(model, data):
         返回预测的标签
     """
 
-    # 导入寻来你好的模型
+    # 导入训练好的模型
     predictor = joblib.load(model)
     result = predictor.predict(data)
 
