@@ -120,13 +120,13 @@ def dimensionShow(dimension):
     number = np.zeros([9, 1])
     while n <= 11:
         total = 0
-        for i in range(1, n - 1):
+        for i in range(1, n):
             total += i
         number[n - 3] = 18 ** total
         n += 1
 
     # 输出在dimension维度情况下的可能性
-    print("在%s维度的情况下，共有%f种判断矩阵" % (dimension, number[dimension - 2]))
+    print("在%s维度的情况下，共有%f种判断矩阵" % (dimension, number[dimension - 3]))
     print("------------------------------")
 
     # 将可能性组合进行min-max标准化处理
@@ -140,5 +140,5 @@ def dimensionShow(dimension):
     plt.xlabel("Dimension")
     plt.ylabel("Times")
     plt.title("dimension&times'relation")
-    plt.scatter(epoch, number_pro)
+    plt.plot(epoch, number_pro)
     plt.show()
