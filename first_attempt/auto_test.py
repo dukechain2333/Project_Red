@@ -1,9 +1,10 @@
 #  @author Duke Chain
 #  @File:auto_test.py
+#  @createTime 2020/07/29 14:33:29
+
+#  @author Duke Chain
+#  @File:auto_test.py
 #  @createTime 2020/07/26 22:32:26
-from sklearn.datasets import make_blobs
-from classify import *
-from weight import *
 
 # x, y = make_blobs(n_samples=500,
 #                   n_features=2,
