@@ -31,9 +31,9 @@ def preprocessing(timeseries, weightmatrix):
     collections = np.zeros([m - 1, 2])
 
     for i in range(m - 1):
-        latitude = series[i + 1] - series[i]
+        altitude = series[i + 1] - series[i]
         collections[i][0] = series[i]
-        collections[i][1] = latitude
+        collections[i][1] = altitude
 
     print("完成预处理流程后的数据为：\n", collections)
     print("------------------------------")
