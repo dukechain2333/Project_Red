@@ -4,7 +4,6 @@
 
 
 import numpy as np
-import matplotlib.pylab as plt
 
 
 def generate_particle(timenum, dimension):
