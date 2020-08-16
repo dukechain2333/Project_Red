@@ -4,6 +4,9 @@
 
 
 import numpy as np
+from sklearn import linear_model
+import joblib
+import os.path
 
 
 def generate_particle(timenum, dimension):
@@ -39,7 +42,7 @@ def expected_value_slope(matrix):
         matrix:传入最少两行矩阵（需要经过numpy array方法处理）
 
     Returns:
-        result:预期值
+        result:期望值
     """
 
     # 判断矩阵是否符合标准
@@ -59,3 +62,46 @@ def expected_value_slope(matrix):
 
     return result
 
+
+def expected_value_linear(matrix):
+    """
+        计算预期值（AR）
+
+        通过自回归模型（此处采用线性自回归模型）来实现期望值的预测
+
+        Args:
+            matrix:传入最少两行矩阵（需要经过numpy array方法处理）
+
+        Returns:
+            result:期望值
+        """
+
+    # 判断矩阵是否符合标准
+    assert (matrix.shape[0] >= 2), 'expected_value()方法出现错误：传入矩阵不符合要求'
+
+    # 记录元素个数row
+    rowNum = matrix.shape[0]
+
+    # 检查是否已有训练模型
+    if not os.path.isfile('linear_model.pkl'):
+
+        # 初始化行矩阵
+        rowMatrix = np.zeros([rowNum, 1])
+        for row in range(rowNum):
+            rowMatrix[row, 0] = row
+
+        # 通过sklearn的LinearRegression()进行训练
+        model = linear_model.LinearRegression()
+        model.fit(rowMatrix, matrix)
+
+        # 保存模型
+        joblib.dump(model, 'linear_model.pkl')
+        print('线性模型已保存')
+
+    # 读取已保存的模型
+    linearModel = joblib.load('linear_model.pkl')
+
+    # 通过模型进行预测
+    result = linearModel.predict([[rowNum]])
+
+    return result
