@@ -3,7 +3,7 @@
 #  @createTime 2020/08/03 13:09:03
 
 import numpy as np
-from second_attempt.preprocess import expected_value
+from second_attempt.preprocess import *
 from math import sqrt, pi, exp
 import random
 
@@ -23,7 +23,7 @@ def weight_calculate(particlematrix, originmatrix):
     """
 
     # 求出期望值
-    expectedMatrix = expected_value(originmatrix)
+    expectedMatrix = expected_value_slope(originmatrix)
 
     # 统计正态分布矩阵信息
     colNum = particlematrix.shape[1]

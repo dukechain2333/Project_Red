@@ -29,7 +29,7 @@ def generate_particle(timenum, dimension):
     return matrix
 
 
-def expected_value(matrix):
+def expected_value_slope(matrix):
     """
     计算预期值
 
@@ -58,3 +58,4 @@ def expected_value(matrix):
         result[0, col] = matrix[-1, col] + k
 
     return result
+
