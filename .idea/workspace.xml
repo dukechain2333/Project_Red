@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84e9bf8f-6b2b-4e4c-a559-8ab2b3bb2f75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../My_project_python/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_attempt/main_AR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_attempt/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_project_python/.idea/My_project_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_project_python/.idea/My_project_python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_project_python/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_project_python/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_project_python/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_project_python/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Project_Red.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project_Red.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_attempt/particleFilter.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attempt/particleFilter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_attempt/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attempt/preprocess.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="57174d96-bbfb-4c8b-abd1-49391445a39c" />
+  <component name="ProjectId" id="1gGPSeRLFiLQqf7RtDBQGBGs5Gt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../My_project_python" />
+    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project_Red" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_attempt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attempt/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_AR" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project_Red" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_attempt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attempt/main_AR.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_slope" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project_Red" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_attempt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attempt/main_slope.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project_Red" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_attempt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attempt/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.main_AR" />
+        <item itemvalue="Python.main_slope" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84e9bf8f-6b2b-4e4c-a559-8ab2b3bb2f75" name="Default Changelist" comment="" />
+      <created>1597737956994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597737956994</updated>
+      <workItem from="1597737958058" duration="541000" />
+      <workItem from="1597738652758" duration="3000" />
+      <workItem from="1597747826482" duration="491000" />
+      <workItem from="1597811867043" duration="23240000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2310" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597845882265">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="2310" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597845882265" />
+    <state x="1813" y="100" width="1534" height="1207" key="DiffContextDialog" timestamp="1597819728013">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1813" y="100" width="1534" height="1207" key="DiffContextDialog/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597819728013" />
+    <state x="1711" y="373" key="FileChooserDialogImpl" timestamp="1597747834709">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="849" y="245" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1597738264813" />
+    <state x="1711" y="373" key="FileChooserDialogImpl/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597747834709" />
+    <state width="1674" height="412" key="GridCell.Tab.0.bottom" timestamp="1597844613430">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1674" height="412" key="GridCell.Tab.0.bottom/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597844613430" />
+    <state width="1674" height="412" key="GridCell.Tab.0.center" timestamp="1597844613430">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1674" height="412" key="GridCell.Tab.0.center/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597844613430" />
+    <state width="1674" height="412" key="GridCell.Tab.0.left" timestamp="1597844613430">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1674" height="412" key="GridCell.Tab.0.left/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597844613430" />
+    <state width="1674" height="412" key="GridCell.Tab.0.right" timestamp="1597844613430">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1674" height="412" key="GridCell.Tab.0.right/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597844613430" />
+    <state x="1833" y="251" key="SettingsEditor" timestamp="1597844611216">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="570" y="135" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1597738497806" />
+    <state x="1833" y="251" key="SettingsEditor/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597844611216" />
+    <state x="1320" y="334" width="672" height="678" key="search.everywhere.popup" timestamp="1597815800139">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1320" y="334" width="672" height="678" key="search.everywhere.popup/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597815800139" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project_Red$main_slope.coverage" NAME="main_slope Coverage Results" MODIFIED="1597830323124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
+    <SUITE FILE_PATH="coverage/Project_Red$main_AR.coverage" NAME="main_AR Coverage Results" MODIFIED="1597842304446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
+    <SUITE FILE_PATH="coverage/Project_Red$test.coverage" NAME="test Coverage Results" MODIFIED="1597844613424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
+    <SUITE FILE_PATH="coverage/Project_Red$main.coverage" NAME="main Coverage Results" MODIFIED="1597824496343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
+  </component>
+</project>
