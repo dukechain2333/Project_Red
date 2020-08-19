@@ -19,17 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84e9bf8f-6b2b-4e4c-a559-8ab2b3bb2f75" name="Default Changelist" comment="">
+    <list default="true" id="84e9bf8f-6b2b-4e4c-a559-8ab2b3bb2f75" name="Default Changelist" comment="Nothing here">
       <change afterPath="$PROJECT_DIR$/../My_project_python/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_attempt/main_AR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/Duke_Chain.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/second_attempt/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../My_project_python/.idea/My_project_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_project_python/.idea/My_project_python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../My_project_python/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_project_python/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../My_project_python/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_project_python/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Project_Red.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project_Red.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_attempt/particleFilter.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attempt/particleFilter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_attempt/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attempt/preprocess.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,8 +187,30 @@
       <workItem from="1597737958058" duration="541000" />
       <workItem from="1597738652758" duration="3000" />
       <workItem from="1597747826482" duration="491000" />
-      <workItem from="1597811867043" duration="23240000" />
+      <workItem from="1597811867043" duration="23637000" />
     </task>
+    <task id="LOCAL-00001" summary="添加了用来帮助选择模型的脚本">
+      <created>1597846627186</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597846627186</updated>
+    </task>
+    <task id="LOCAL-00002" summary="整合了先前的方法并做出调整">
+      <created>1597846683350</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597846683350</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Nothing here">
+      <created>1597846750859</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597846750859</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +239,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="添加了用来帮助选择模型的脚本" />
+    <MESSAGE value="整合了先前的方法并做出调整" />
+    <MESSAGE value="Nothing here" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nothing here" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2310" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597845882265">
@@ -251,6 +279,10 @@
     </state>
     <state x="570" y="135" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1597738497806" />
     <state x="1833" y="251" key="SettingsEditor/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597844611216" />
+    <state x="2172" y="432" key="Vcs.Push.Dialog.v2" timestamp="1597846752875">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="2172" y="432" key="Vcs.Push.Dialog.v2/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597846752875" />
     <state x="1320" y="334" width="672" height="678" key="search.everywhere.popup" timestamp="1597815800139">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
