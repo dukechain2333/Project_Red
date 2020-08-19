@@ -8,7 +8,7 @@ from math import sqrt, pi, exp
 import random
 
 
-def weight_calculate(particlematrix, originmatrix):
+def weight_calculate(particlematrix, expectvalue):
     """
     权重计算
 
@@ -16,14 +16,14 @@ def weight_calculate(particlematrix, originmatrix):
 
     Args:
         particlematrix:传入按照正态分布的随机粒子矩阵
-        originmatrix:传入需要计算的矩阵
+        expectvalue:传入期望值
 
     Returns：
         weightMatrix:归一化后的权重矩阵
     """
 
     # 求出期望值
-    expectedMatrix = expected_value_slope(originmatrix)
+    # expectedMatrix = expected_value_slope(originmatrix)
 
     # 统计正态分布矩阵信息
     colNum = particlematrix.shape[1]
@@ -37,7 +37,7 @@ def weight_calculate(particlematrix, originmatrix):
     for row in range(rowNum):
         for col in range(colNum):
             weightMatrixtem[row, col] = (1 / sqrt(2 * pi)) * exp(
-                (particlematrix[row, col] - expectedMatrix[0, col] ** 2) / (-2))
+                (particlematrix[row, col] - expectvalue[0, col] ** 2) / (-2))
 
     # 归一化权重矩阵
     weightSum = np.zeros([1, colNum])
@@ -88,7 +88,7 @@ def russia_roulette(weightmatrix, particlematrix):
             # 将结果映射到重抽样矩阵中
             selection[row, col] = particlematrix[secondRow, col]
 
-    print("重抽样矩阵为：\n", selection)
+    # print("重抽样矩阵为：\n", selection)
 
     # 统计重抽样矩阵信息
     rowSel = selection.shape[0]

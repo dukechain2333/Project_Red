@@ -9,14 +9,14 @@ import joblib
 import os.path
 
 
-def generate_particle(timenum, dimension):
+def generate_particle(rownum, dimension):
     """
     产生粒子
 
     使用高斯分布随机产生粒子
 
     Args:
-        timenum:时间节点的数量
+        rownum:生成数据点的数量
         dimension:每个时间节点元素的个数
 
     Returns:
@@ -24,46 +24,47 @@ def generate_particle(timenum, dimension):
     """
 
     # 产生粒子矩阵
-    matrix = np.random.randn(timenum, dimension)
+    matrix = np.random.randn(rownum, dimension)
 
     # 可视化粒子矩阵
-    print(matrix)
+    # print(matrix)
 
     return matrix
 
 
-def expected_value_slope(matrix):
+def expected_value_slope(rowOne, rowTwo):
     """
     计算预期值
 
     通过计算单个属性斜率来得出预期值
 
     Args:
-        matrix:传入最少两行矩阵（需要经过numpy array方法处理）
+        rowOne:传入第一行矩阵
+        rowTwo:传入第二行矩阵
 
     Returns:
         result:期望值
     """
 
     # 判断矩阵是否符合标准
-    assert (matrix.shape[0] >= 2), 'expected_value()方法出现错误：传入矩阵不符合要求'
+    # assert (matrix.shape[0] >= 2), 'expected_value()方法出现错误：传入矩阵不符合要求'
 
     # 记录元素个数
-    colNum = matrix.shape[1]
+    colNum = rowOne.shape[1]
 
     # 初始化result矩阵
-    result = np.zeros([1, matrix.shape[1]])
+    result = np.zeros([1, colNum])
 
     for col in range(colNum):
         # 求斜率
-        k = matrix[-1, col] - matrix[-2, col]
+        k = rowTwo[-1, col] - rowOne[-1, col]
         # 将预测值加入result矩阵
-        result[0, col] = matrix[-1, col] + k
+        result[0, col] = rowTwo[-1, col] + k
 
     return result
 
 
-def expected_value_linear(matrix):
+def expected_value_linear(matrix, row):
     """
         计算预期值（AR）
 
@@ -71,6 +72,7 @@ def expected_value_linear(matrix):
 
         Args:
             matrix:传入最少两行矩阵（需要经过numpy array方法处理）
+            row:需要预测的节点
 
         Returns:
             result:期望值
@@ -102,6 +104,6 @@ def expected_value_linear(matrix):
     linearModel = joblib.load('linear_model.pkl')
 
     # 通过模型进行预测
-    result = linearModel.predict([[rowNum]])
+    result = linearModel.predict([[row]])
 
     return result
