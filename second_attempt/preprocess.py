@@ -76,7 +76,7 @@ def expected_value_linear(matrix, row):
 
         Returns:
             result:期望值
-        """
+    """
 
     # 判断矩阵是否符合标准
     assert (matrix.shape[0] >= 2), 'expected_value()方法出现错误：传入矩阵不符合要求'

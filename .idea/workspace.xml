@@ -20,18 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84e9bf8f-6b2b-4e4c-a559-8ab2b3bb2f75" name="Default Changelist" comment="Nothing here">
-      <change afterPath="$PROJECT_DIR$/../My_project_python/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/Duke_Chain.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_attempt/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_project_python/.idea/My_project_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_project_python/.idea/My_project_python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_project_python/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_project_python/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_project_python/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_project_python/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Project_Red.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project_Red.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_attempt/lag.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attempt/lag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_attempt/main_AR.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attempt/main_AR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_attempt/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attempt/preprocess.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,10 +71,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../My_project_python" />
-    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.lag">
+    <configuration name="lag" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project_Red" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,7 +87,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attempt/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attempt/lag.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,12 +162,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_test_local" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_test_local" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_test_local/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.lag" />
         <item itemvalue="Python.main_AR" />
+        <item itemvalue="Python.test1" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.main_slope" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +205,9 @@
       <workItem from="1597737958058" duration="541000" />
       <workItem from="1597738652758" duration="3000" />
       <workItem from="1597747826482" duration="491000" />
-      <workItem from="1597811867043" duration="23637000" />
+      <workItem from="1597811867043" duration="26639000" />
+      <workItem from="1597887966833" duration="3931000" />
+      <workItem from="1597893675080" duration="810000" />
     </task>
     <task id="LOCAL-00001" summary="添加了用来帮助选择模型的脚本">
       <created>1597846627186</created>
@@ -210,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597846750859</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Nothing here">
+      <created>1597846773946</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597846773946</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +263,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -245,44 +273,44 @@
     <option name="LAST_COMMIT_MESSAGE" value="Nothing here" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2310" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597845882265">
+    <state x="2310" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597893038390">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2310" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597845882265" />
+    <state x="2310" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597893038390" />
     <state x="1813" y="100" width="1534" height="1207" key="DiffContextDialog" timestamp="1597819728013">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1813" y="100" width="1534" height="1207" key="DiffContextDialog/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597819728013" />
-    <state x="1711" y="373" key="FileChooserDialogImpl" timestamp="1597747834709">
+    <state x="1711" y="373" key="FileChooserDialogImpl" timestamp="1597847042420">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="849" y="245" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1597738264813" />
-    <state x="1711" y="373" key="FileChooserDialogImpl/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597747834709" />
-    <state width="1674" height="412" key="GridCell.Tab.0.bottom" timestamp="1597844613430">
+    <state x="1711" y="373" key="FileChooserDialogImpl/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597847042420" />
+    <state width="1674" height="409" key="GridCell.Tab.0.bottom" timestamp="1597894837103">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="412" key="GridCell.Tab.0.bottom/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597844613430" />
-    <state width="1674" height="412" key="GridCell.Tab.0.center" timestamp="1597844613430">
+    <state width="1674" height="409" key="GridCell.Tab.0.bottom/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597894837103" />
+    <state width="1674" height="409" key="GridCell.Tab.0.center" timestamp="1597894837103">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="412" key="GridCell.Tab.0.center/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597844613430" />
-    <state width="1674" height="412" key="GridCell.Tab.0.left" timestamp="1597844613430">
+    <state width="1674" height="409" key="GridCell.Tab.0.center/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597894837103" />
+    <state width="1674" height="409" key="GridCell.Tab.0.left" timestamp="1597894837103">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="412" key="GridCell.Tab.0.left/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597844613430" />
-    <state width="1674" height="412" key="GridCell.Tab.0.right" timestamp="1597844613430">
+    <state width="1674" height="409" key="GridCell.Tab.0.left/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597894837103" />
+    <state width="1674" height="409" key="GridCell.Tab.0.right" timestamp="1597894837103">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="412" key="GridCell.Tab.0.right/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597844613430" />
-    <state x="1833" y="251" key="SettingsEditor" timestamp="1597844611216">
+    <state width="1674" height="409" key="GridCell.Tab.0.right/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597894837103" />
+    <state x="1833" y="251" key="SettingsEditor" timestamp="1597847081562">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="570" y="135" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1597738497806" />
-    <state x="1833" y="251" key="SettingsEditor/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597844611216" />
-    <state x="2172" y="432" key="Vcs.Push.Dialog.v2" timestamp="1597846752875">
+    <state x="1833" y="251" key="SettingsEditor/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597847081562" />
+    <state x="2172" y="432" key="Vcs.Push.Dialog.v2" timestamp="1597846775444">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2172" y="432" key="Vcs.Push.Dialog.v2/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597846752875" />
+    <state x="2172" y="432" key="Vcs.Push.Dialog.v2/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597846775444" />
     <state x="1320" y="334" width="672" height="678" key="search.everywhere.popup" timestamp="1597815800139">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -290,8 +318,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Project_Red$main_slope.coverage" NAME="main_slope Coverage Results" MODIFIED="1597830323124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
-    <SUITE FILE_PATH="coverage/Project_Red$main_AR.coverage" NAME="main_AR Coverage Results" MODIFIED="1597842304446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
     <SUITE FILE_PATH="coverage/Project_Red$test.coverage" NAME="test Coverage Results" MODIFIED="1597844613424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
+    <SUITE FILE_PATH="coverage/Project_Red$main_AR.coverage" NAME="main_AR Coverage Results" MODIFIED="1597892703647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
     <SUITE FILE_PATH="coverage/Project_Red$main.coverage" NAME="main Coverage Results" MODIFIED="1597824496343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
+    <SUITE FILE_PATH="coverage/Project_Red$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1597848760588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_test_local" />
+    <SUITE FILE_PATH="coverage/Project_Red$lag.coverage" NAME="lag Coverage Results" MODIFIED="1597893889999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
   </component>
 </project>
