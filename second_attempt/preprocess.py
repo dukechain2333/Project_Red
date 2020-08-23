@@ -7,6 +7,7 @@ import numpy as np
 from sklearn import linear_model
 import joblib
 import os.path
+import matplotlib.pyplot as plt
 
 
 def generate_particle(rownum, dimension):
@@ -32,15 +33,15 @@ def generate_particle(rownum, dimension):
     return matrix
 
 
-def expected_value_slope(rowOne, rowTwo):
+def expected_value_slope(row_one, row_two):
     """
     计算预期值
 
     通过计算单个属性斜率来得出预期值
 
     Args:
-        rowOne:传入第一行矩阵
-        rowTwo:传入第二行矩阵
+        row_one:传入第一行矩阵
+        row_two:传入第二行矩阵
 
     Returns:
         result:期望值
@@ -50,38 +51,38 @@ def expected_value_slope(rowOne, rowTwo):
     # assert (matrix.shape[0] >= 2), 'expected_value()方法出现错误：传入矩阵不符合要求'
 
     # 记录元素个数
-    colNum = rowOne.shape[1]
+    colNum = row_one.shape[1]
 
     # 初始化result矩阵
     result = np.zeros([1, colNum])
 
     for col in range(colNum):
         # 求斜率
-        k = rowTwo[-1, col] - rowOne[-1, col]
+        k = row_two[-1, col] - row_one[-1, col]
         # 将预测值加入result矩阵
-        result[0, col] = rowTwo[-1, col] + k
+        result[0, col] = row_two[-1, col] + k
 
     return result
 
 
 def expected_value_linear(matrix, row):
     """
-        计算预期值（AR）
+    计算期望值（AR）
 
-        通过自回归模型（此处采用线性自回归模型）来实现期望值的预测
+    通过自回归模型（此处采用线性自回归模型）来实现期望值的预测
 
-        Args:
-            matrix:传入最少两行矩阵（需要经过numpy array方法处理）
-            row:需要预测的节点
+    Args:
+        matrix:传入最少两行矩阵（需要经过numpy array方法处理）
+        row:需要预测的节点
 
-        Returns:
-            result:期望值
+    Returns:
+        result:期望值
     """
 
     # 判断矩阵是否符合标准
     assert (matrix.shape[0] >= 2), 'expected_value()方法出现错误：传入矩阵不符合要求'
 
-    # 记录元素个数row
+    # 记录元素个数
     rowNum = matrix.shape[0]
 
     # 检查是否已有训练模型
@@ -107,3 +108,74 @@ def expected_value_linear(matrix, row):
     result = linearModel.predict([[row]])
 
     return result
+
+
+def expected_value_ma(matrix, predict):
+    """
+    计算期望值（MA）
+
+    通过滑动平均模型来实现期望值的预测
+
+    Args:
+        matrix:传入最少两行矩阵（需要经过numpy array方法处理）
+        predict:需要预测的节点
+
+    Returns:
+        result:期望值
+    """
+
+    # 判断矩阵是否符合标准
+    assert (matrix.shape[0] >= 2), 'expected_value()方法出现错误：传入矩阵不符合要求'
+
+    # 记录矩阵属性
+    rowNum = matrix.shape[0]
+    colNum = matrix.shape[1]
+
+    # 设置缓存区取样个数并初始化缓存区
+    cacheLen = 10
+
+    # 初始化结果矩阵
+    result = np.zeros([rowNum, colNum])
+
+    # 按矩阵的列进行划分运算
+    for col in range(colNum):
+        # 进行基于正态分布的滑动平均滤波
+        for row in range(rowNum):
+            if row >= cacheLen:
+                cache = matrix[row - cacheLen:row, col]
+                meanValue = cache.mean()
+                stdValue = cache.std()
+                for element in range(10):
+                    if abs(cache[element] - meanValue) > 1.96 * stdValue:
+                        cache[element] = meanValue
+                ma = cache.mean()
+                result[row, col] = ma
+            else:
+                cache = matrix[0:row, col]
+                if len(cache) != 0:
+                    meanValue = cache.mean()
+                    stdValue = cache.std()
+                    for element in range(len(cache)):
+                        if abs(cache[element] - meanValue) > 1.96 * stdValue:
+                            cache[element] = meanValue
+                    ma = cache.mean()
+                    result[row, col] = ma
+                else:
+                    result[row, col] = matrix[row, col]
+
+    # 绘图
+    time = np.zeros([rowNum, 1])
+    for row in range(rowNum):
+        time[row] = row
+    for col in range(colNum):
+        plt.plot(time, result[:, col], color='red')
+        plt.plot(time, matrix[:, col])
+        plt.legend(['MA', 'REAL'])
+        plt.title('Column No.%d' % col)
+        plt.show()
+
+    # 返回预测结果
+    if predict < rowNum:
+        return result[predict, :]
+    else:
+        return result[-1, :]
