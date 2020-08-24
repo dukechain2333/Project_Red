@@ -123,6 +123,7 @@ def mainprocess(data):
     # 绘制图像
     plt.plot(timeNum, testParticles)
     plt.plot(timeNum_pre, resultMatrix, color='red')
+    plt.title('RESULT OF AR')
     plt.legend(['real', 'predict'])
     plt.show()
 

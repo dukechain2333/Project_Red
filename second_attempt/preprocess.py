@@ -121,7 +121,7 @@ def expected_value_ma(matrix, predict):
         predict:需要预测的节点
 
     Returns:
-        result:期望值
+        prediction:期望值
     """
 
     # 判断矩阵是否符合标准
@@ -164,18 +164,20 @@ def expected_value_ma(matrix, predict):
                     result[row, col] = matrix[row, col]
 
     # 绘图
-    time = np.zeros([rowNum, 1])
-    for row in range(rowNum):
-        time[row] = row
-    for col in range(colNum):
-        plt.plot(time, result[:, col], color='red')
-        plt.plot(time, matrix[:, col])
-        plt.legend(['MA', 'REAL'])
-        plt.title('Column No.%d' % col)
-        plt.show()
+    # time = np.zeros([rowNum, 1])
+    # for row in range(rowNum):
+    #     time[row] = row
+    # for col in range(colNum):
+    #     plt.plot(time, result[:, col], color='red')
+    #     plt.plot(time, matrix[:, col])
+    #     plt.legend(['MA', 'REAL'])
+    #     plt.title('Column No.%d' % col)
+    #     plt.show()
 
     # 返回预测结果
     if predict < rowNum:
-        return result[predict, :]
+        prediction = np.array(result[predict, :])
+        return prediction
     else:
-        return result[-1, :]
+        prediction = np.array(result[-1, :])
+        return prediction
