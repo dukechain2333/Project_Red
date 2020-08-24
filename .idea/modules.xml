@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../My_project_python/.idea/My_project_python.iml" filepath="$PROJECT_DIR$/../My_project_python/.idea/My_project_python.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Project_Red.iml" filepath="$PROJECT_DIR$/.idea/Project_Red.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../joyful-pandas/.idea/joyful-pandas.iml" filepath="$PROJECT_DIR$/../joyful-pandas/.idea/joyful-pandas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../machine_learning/.idea/machine_learning.iml" filepath="$PROJECT_DIR$/../machine_learning/.idea/machine_learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/../python_test_local/.idea/python_test_local.iml" filepath="$PROJECT_DIR$/../python_test_local/.idea/python_test_local.iml" />
     </modules>
   </component>

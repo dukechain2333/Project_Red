@@ -19,19 +19,37 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84e9bf8f-6b2b-4e4c-a559-8ab2b3bb2f75" name="Default Changelist" comment="Nothing here">
+    <list default="true" id="84e9bf8f-6b2b-4e4c-a559-8ab2b3bb2f75" name="Default Changelist" comment="添加了expected_value_ma()方法&#10;通过滑动平均模型来实现期望值的预测">
+      <change afterPath="$PROJECT_DIR$/second_attempt/main_MA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_attempt/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../joyful-pandas/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../joyful-pandas/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../joyful-pandas/.idea/joyful-pandas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../joyful-pandas/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../joyful-pandas/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../machine_learning/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../machine_learning/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../machine_learning/.idea/machine_learning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../machine_learning/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../machine_learning/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../machine_learning/package1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../machine_learning/package1/knn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Project_Red.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project_Red.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_attempt/lag.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attempt/lag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_attempt/main_AR.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attempt/main_AR.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/second_attempt/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attempt/preprocess.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="repository" />
+    </option>
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -70,32 +88,15 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../My_project_python" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python_test_local" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.lag">
-    <configuration name="lag" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Project_Red" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_attempt" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attempt/lag.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python_test_local" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main_MA">
     <configuration name="main_AR" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project_Red" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_slope" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main_MA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project_Red" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,7 +132,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attempt/main_slope.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attempt/main_MA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,13 +185,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_test_local" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_test_local" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_test_local/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.lag" />
-        <item itemvalue="Python.main_AR" />
-        <item itemvalue="Python.test1" />
+        <item itemvalue="Python.main_MA" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.main_slope" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.test1" />
+        <item itemvalue="Python.main_AR" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +231,18 @@
       <workItem from="1597811867043" duration="26639000" />
       <workItem from="1597887966833" duration="3931000" />
       <workItem from="1597893675080" duration="810000" />
+      <workItem from="1597900687035" duration="67000" />
+      <workItem from="1597900851244" duration="17000" />
+      <workItem from="1597901937921" duration="2113000" />
+      <workItem from="1597997399512" duration="886000" />
+      <workItem from="1597998396467" duration="2339000" />
+      <workItem from="1598020066492" duration="5970000" />
+      <workItem from="1598026432300" duration="788000" />
+      <workItem from="1598081205334" duration="62000" />
+      <workItem from="1598097072363" duration="1861000" />
+      <workItem from="1598150727464" duration="11252000" />
+      <workItem from="1598193222925" duration="970000" />
+      <workItem from="1598235344155" duration="8692000" />
     </task>
     <task id="LOCAL-00001" summary="添加了用来帮助选择模型的脚本">
       <created>1597846627186</created>
@@ -237,7 +272,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597846773946</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="代码调整">
+      <created>1597900735749</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597900735749</updated>
+    </task>
+    <task id="LOCAL-00006" summary="添加了expected_value_ma()方法&#10;通过滑动平均模型来实现期望值的预测">
+      <created>1598182847863</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598182847863</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +319,9 @@
     <MESSAGE value="添加了用来帮助选择模型的脚本" />
     <MESSAGE value="整合了先前的方法并做出调整" />
     <MESSAGE value="Nothing here" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nothing here" />
+    <MESSAGE value="代码调整" />
+    <MESSAGE value="添加了expected_value_ma()方法&#10;通过滑动平均模型来实现期望值的预测" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了expected_value_ma()方法&#10;通过滑动平均模型来实现期望值的预测" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2310" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597893038390">
@@ -286,42 +337,73 @@
     </state>
     <state x="849" y="245" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1597738264813" />
     <state x="1711" y="373" key="FileChooserDialogImpl/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597847042420" />
-    <state width="1674" height="409" key="GridCell.Tab.0.bottom" timestamp="1597894837103">
+    <state width="3397" height="411" key="GridCell.Tab.0.bottom" timestamp="1598256413054">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="409" key="GridCell.Tab.0.bottom/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597894837103" />
-    <state width="1674" height="409" key="GridCell.Tab.0.center" timestamp="1597894837103">
+    <state width="3397" height="411" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1598010164969" />
+    <state width="3397" height="411" key="GridCell.Tab.0.bottom/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598256413054" />
+    <state width="3397" height="411" key="GridCell.Tab.0.center" timestamp="1598256413053">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="409" key="GridCell.Tab.0.center/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597894837103" />
-    <state width="1674" height="409" key="GridCell.Tab.0.left" timestamp="1597894837103">
+    <state width="3397" height="411" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1598010164969" />
+    <state width="3397" height="411" key="GridCell.Tab.0.center/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598256413053" />
+    <state width="3397" height="411" key="GridCell.Tab.0.left" timestamp="1598256413053">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="409" key="GridCell.Tab.0.left/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597894837103" />
-    <state width="1674" height="409" key="GridCell.Tab.0.right" timestamp="1597894837103">
+    <state width="3397" height="411" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1598010164969" />
+    <state width="3397" height="411" key="GridCell.Tab.0.left/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598256413053" />
+    <state width="3397" height="411" key="GridCell.Tab.0.right" timestamp="1598256413053">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="409" key="GridCell.Tab.0.right/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597894837103" />
-    <state x="1833" y="251" key="SettingsEditor" timestamp="1597847081562">
+    <state width="3397" height="411" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1598010164969" />
+    <state width="3397" height="411" key="GridCell.Tab.0.right/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598256413053" />
+    <state width="3397" height="539" key="GridCell.Tab.1.bottom" timestamp="1598237854497">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="3397" height="539" key="GridCell.Tab.1.bottom/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598237854497" />
+    <state width="3397" height="539" key="GridCell.Tab.1.center" timestamp="1598237854497">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="3397" height="539" key="GridCell.Tab.1.center/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598237854497" />
+    <state width="3397" height="539" key="GridCell.Tab.1.left" timestamp="1598237854497">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="3397" height="539" key="GridCell.Tab.1.left/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598237854497" />
+    <state width="3397" height="539" key="GridCell.Tab.1.right" timestamp="1598237854497">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="3397" height="539" key="GridCell.Tab.1.right/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598237854497" />
+    <state x="1833" y="251" key="SettingsEditor" timestamp="1598182933122">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="570" y="135" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1597738497806" />
-    <state x="1833" y="251" key="SettingsEditor/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597847081562" />
-    <state x="2172" y="432" key="Vcs.Push.Dialog.v2" timestamp="1597846775444">
+    <state x="1833" y="251" key="SettingsEditor/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598182933122" />
+    <state x="2172" y="432" key="Vcs.Push.Dialog.v2" timestamp="1598182940428">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2172" y="432" key="Vcs.Push.Dialog.v2/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597846775444" />
-    <state x="1320" y="334" width="672" height="678" key="search.everywhere.popup" timestamp="1597815800139">
+    <state x="2172" y="432" key="Vcs.Push.Dialog.v2/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598182940428" />
+    <state x="2383" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598170164913">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1320" y="334" width="672" height="678" key="search.everywhere.popup/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597815800139" />
+    <state x="2383" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.3440.1400@0.0.3440.1400" timestamp="1597997684878" />
+    <state x="2383" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598170164913" />
+    <state x="1300" y="355" key="editAsTableFormatDialogDimension" timestamp="1598022913932">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1300" y="355" key="editAsTableFormatDialogDimension/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598022913932" />
+    <state x="1320" y="334" width="672" height="678" key="search.everywhere.popup" timestamp="1598020514802">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1320" y="334" width="672" height="678" key="search.everywhere.popup/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598020514802" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Project_Red$main_slope.coverage" NAME="main_slope Coverage Results" MODIFIED="1597830323124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
-    <SUITE FILE_PATH="coverage/Project_Red$test.coverage" NAME="test Coverage Results" MODIFIED="1597844613424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
     <SUITE FILE_PATH="coverage/Project_Red$main_AR.coverage" NAME="main_AR Coverage Results" MODIFIED="1597892703647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
+    <SUITE FILE_PATH="coverage/Project_Red$test.coverage" NAME="test Coverage Results" MODIFIED="1598255702055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
     <SUITE FILE_PATH="coverage/Project_Red$main.coverage" NAME="main Coverage Results" MODIFIED="1597824496343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
-    <SUITE FILE_PATH="coverage/Project_Red$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1597848760588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_test_local" />
+    <SUITE FILE_PATH="coverage/Project_Red$main_MA.coverage" NAME="main_MA Coverage Results" MODIFIED="1598256413040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
+    <SUITE FILE_PATH="coverage/Project_Red$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1598026725565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_test_local" />
     <SUITE FILE_PATH="coverage/Project_Red$lag.coverage" NAME="lag Coverage Results" MODIFIED="1597893889999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
+    <SUITE FILE_PATH="coverage/Project_Red$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1598098922195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_test_local" />
   </component>
 </project>

@@ -6,5 +6,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="My_project_python" />
     <orderEntry type="module" module-name="python_test_local" />
+    <orderEntry type="module" module-name="machine_learning" />
+    <orderEntry type="module" module-name="joyful-pandas" />
   </component>
 </module>
