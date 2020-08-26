@@ -48,6 +48,12 @@ data = np.array([[3052446],
                  [18112951],
                  [3036735]])
 
+# data = np.zeros([100, 1])
+# for i in range(100):
+#     data[i] = np.sin(i) + np.random.normal(0, 0.1)
+
+print(data)
+
 
 def mainprocess(data):
     """
@@ -83,7 +89,7 @@ def mainprocess(data):
 
     # 套用方法
     for row in range(rowNum - 1):
-        expectValue = expected_value_ma(testParticles, row).reshape(1,colNum)
+        expectValue = expected_value_ma(testParticles, row).reshape(1, colNum)
         particles = generate_particle(1000, 1) + expectValue
         weight = weight_calculate(particles, expectValue)
         result = russia_roulette(weight, particles)
@@ -96,6 +102,17 @@ def mainprocess(data):
     plt.plot(timeNum, testParticles)
     plt.plot(timeNum_pre, resultMatrix, color='red')
     plt.title('RESULT OF MA')
+    plt.legend(['real', 'predict'])
+    plt.show()
+
+    # 向左平移3个单位后的图像
+    testMatrix = np.zeros([rowNum, 1])
+    for i in range(rowNum - 3):
+        testMatrix[i] = resultMatrix[i + 3]
+
+    plt.plot(timeNum, testParticles)
+    plt.plot(timeNum, testMatrix, color='red')
+    plt.title('RESULT OF MA_test')
     plt.legend(['real', 'predict'])
     plt.show()
 
