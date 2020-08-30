@@ -110,18 +110,18 @@ def expected_value_linear(matrix, row):
     return result
 
 
-def expected_value_ma(matrix, predict):
+def expected_value_ma(matrix):
     """
     计算期望值（MA）
 
     通过滑动平均模型来实现期望值的预测
+    注意：在例子滤波中使用此方法需要进行向左平移2单位的滞后性修正
 
     Args:
         matrix:传入最少两行矩阵（需要经过numpy array方法处理）
-        predict:需要预测的节点
 
     Returns:
-        prediction:期望值
+        result:期望值矩阵
     """
 
     # 判断矩阵是否符合标准
@@ -175,9 +175,4 @@ def expected_value_ma(matrix, predict):
     #     plt.show()
 
     # 返回预测结果
-    if predict < rowNum:
-        prediction = np.array(result[predict, :])
-        return prediction
-    else:
-        prediction = np.array(result[-1, :])
-        return prediction
+    return result
