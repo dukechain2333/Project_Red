@@ -87,36 +87,43 @@ def mainprocess(data):
     # 生成结果矩阵
     resultMatrix = np.zeros([rowNum + 1, 1])
 
+    # 生成预测矩阵
+    expectMatrix = expected_value_ma(testParticles)
+
     # 套用方法
-    for row in range(rowNum - 1):
-        expectValue = expected_value_ma(testParticles, row).reshape(1, colNum)
+    for row in range(rowNum):
+        expectValue = expectMatrix[row].reshape(1, colNum)
         particles = generate_particle(1000, 1) + expectValue
         weight = weight_calculate(particles, expectValue)
         result = russia_roulette(weight, particles)
-        resultMatrix[row + 1] = result
+        resultMatrix[row] = result
 
+    # 预测点
+    expectValue = expectMatrix[-1].reshape(1, colNum)
+    particles = generate_particle(1000, 1) + expectValue
+    weight = weight_calculate(particles, expectValue)
+    result = russia_roulette(weight, particles)
+    resultMatrix[rowNum] = result
+
+    # 结果矩阵标准化
     resultMatrix = scaler.fit_transform(resultMatrix)
-    resultMatrix[0] = testParticles[0]
+
+    # 向左平移2个单位进行滞后修正
+    resultMatrix_pro = np.zeros([rowNum, 1])
+    for i in range(rowNum - 2):
+        resultMatrix_pro[i] = resultMatrix[i + 2]
+    resultMatrix_pro[-1] = resultMatrix[-1]
+    resultMatrix_pro[-2] = resultMatrix[-1]
 
     # 绘制图像
     plt.plot(timeNum, testParticles)
-    plt.plot(timeNum_pre, resultMatrix, color='red')
+    plt.plot(timeNum, resultMatrix_pro, color='red')
     plt.title('RESULT OF MA')
     plt.legend(['real', 'predict'])
     plt.show()
+    print(resultMatrix_pro)
 
-    # 向左平移3个单位后的图像
-    testMatrix = np.zeros([rowNum, 1])
-    for i in range(rowNum - 3):
-        testMatrix[i] = resultMatrix[i + 3]
-
-    plt.plot(timeNum, testParticles)
-    plt.plot(timeNum, testMatrix, color='red')
-    plt.title('RESULT OF MA_test')
-    plt.legend(['real', 'predict'])
-    plt.show()
-
-    return resultMatrix
+    return resultMatrix_pro
 
 
 if __name__ == '__main__':
