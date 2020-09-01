@@ -5,7 +5,8 @@
 from second_attempt.particleFilter import *
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn import preprocessing
+from sklearn import preprocessing, linear_model
+import joblib
 
 # 生成状态数据
 # data = np.array([[3052446],
@@ -107,18 +108,26 @@ def mainprocess(data):
     # 生成结果矩阵
     resultMatrix = np.zeros([rowNum + 1, 1])
 
+    # 训练线性模型
+    expected_value_linear(testParticles)
+    expectModel = joblib.load('linear_model.pkl')
+
     # 方法套用
-    for i in range(rowNum - 1):
-        expectValue = expected_value_linear(testParticles, i)
-        # print(expectValue)
+    for i in range(rowNum):
+        expectValue = expectModel.predict([[i]])
         particles = generate_particle(1000, 1) + expectValue
         weight = weight_calculate(particles, expectValue)
         result = russia_roulette(weight, particles)
-        # print(result)
-        resultMatrix[i + 1] = result
+        resultMatrix[i] = result
+
+    # 预测点
+    expectValue = expectModel.predict([[rowNum]])
+    particles = generate_particle(1000, 1) + expectValue
+    weight = weight_calculate(particles, expectValue)
+    result = russia_roulette(weight, particles)
+    resultMatrix[rowNum] = result
 
     resultMatrix = scaler.fit_transform(resultMatrix)
-    resultMatrix[0] = testParticles[0]
 
     # 绘制图像
     plt.plot(timeNum, testParticles)
