@@ -75,7 +75,7 @@ def expected_value_linear(matrix):
         matrix:传入最少两行矩阵（需要经过numpy array方法处理）
 
     Returns:
-        输出一个线性模型
+        model:输出训练好的线性模型
     """
 
     # 判断矩阵是否符合标准
@@ -98,6 +98,8 @@ def expected_value_linear(matrix):
     # 保存模型
     joblib.dump(model, 'linear_model.pkl')
     print('线性模型已保存')
+
+    return model
 
 
 
