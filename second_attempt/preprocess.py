@@ -6,7 +6,6 @@
 import numpy as np
 from sklearn import linear_model
 import joblib
-import os.path
 import matplotlib.pyplot as plt
 
 
@@ -65,18 +64,18 @@ def expected_value_slope(row_one, row_two):
     return result
 
 
-def expected_value_linear(matrix, row):
+def expected_value_linear(matrix):
     """
     计算期望值（AR）
 
     通过自回归模型（此处采用线性自回归模型）来实现期望值的预测
+    注意：使用此方法需要调用训练好的线性模型
 
     Args:
         matrix:传入最少两行矩阵（需要经过numpy array方法处理）
-        row:需要预测的节点
 
     Returns:
-        result:期望值
+        输出一个线性模型
     """
 
     # 判断矩阵是否符合标准
@@ -85,29 +84,21 @@ def expected_value_linear(matrix, row):
     # 记录元素个数
     rowNum = matrix.shape[0]
 
-    # 检查是否已有训练模型
-    if not os.path.isfile('linear_model.pkl'):
+    # 初始化行矩阵
+    rowMatrix = np.zeros([rowNum, 1])
+    for row in range(rowNum):
+        rowMatrix[row, 0] = row
 
-        # 初始化行矩阵
-        rowMatrix = np.zeros([rowNum, 1])
-        for row in range(rowNum):
-            rowMatrix[row, 0] = row
+    print('正在训练线性模型')
 
-        # 通过sklearn的LinearRegression()进行训练
-        model = linear_model.LinearRegression()
-        model.fit(rowMatrix, matrix)
+    # 通过sklearn的LinearRegression()进行训练
+    model = linear_model.LinearRegression()
+    model.fit(rowMatrix, matrix)
 
-        # 保存模型
-        joblib.dump(model, 'linear_model.pkl')
-        print('线性模型已保存')
+    # 保存模型
+    joblib.dump(model, 'linear_model.pkl')
+    print('线性模型已保存')
 
-    # 读取已保存的模型
-    linearModel = joblib.load('linear_model.pkl')
-
-    # 通过模型进行预测
-    result = linearModel.predict([[row]])
-
-    return result
 
 
 def expected_value_ma(matrix):
