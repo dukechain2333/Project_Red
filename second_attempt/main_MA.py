@@ -99,11 +99,11 @@ def mainprocess(data):
         resultMatrix[row] = result
 
     # 预测点
-    expectValue = expectMatrix[-1].reshape(1, colNum)
-    particles = generate_particle(1000, 1) + expectValue
-    weight = weight_calculate(particles, expectValue)
-    result = russia_roulette(weight, particles)
-    resultMatrix[rowNum] = result
+    # expectValue = expectMatrix[-1].reshape(1, colNum)
+    # particles = generate_particle(1000, 1) + expectValue
+    # weight = weight_calculate(particles, expectValue)
+    # result = russia_roulette(weight, particles)
+    # resultMatrix[rowNum] = result
 
     # 结果矩阵标准化
     resultMatrix = scaler.fit_transform(resultMatrix)

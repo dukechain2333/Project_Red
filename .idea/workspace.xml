@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84e9bf8f-6b2b-4e4c-a559-8ab2b3bb2f75" name="Default Changelist" comment="Nothing here">
+    <list default="true" id="84e9bf8f-6b2b-4e4c-a559-8ab2b3bb2f75" name="Default Changelist" comment="马原社会实践：刷问卷">
+      <change afterPath="$PROJECT_DIR$/../Hands-on-Machine-Learning/.idea/Hands-on-Machine-Learning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hands-on-Machine-Learning/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hands-on-Machine-Learning/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hands-on-Machine-Learning/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hands-on-Machine-Learning/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_attempt/MainComprehensive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_attempt/test.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../joyful-pandas/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../joyful-pandas/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../joyful-pandas/.idea/joyful-pandas.iml" afterDir="false" />
@@ -32,8 +39,13 @@
       <change afterPath="$PROJECT_DIR$/../machine_learning/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../machine_learning/package1/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../machine_learning/package1/knn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hands-on-Machine-Learning/02_Housing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Hands-on-Machine-Learning/02_Housing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Project_Red.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project_Red.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/second_attempt/main_MA.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attempt/main_MA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_attempt/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_attempt/preprocess.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,16 +94,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python_test_local" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OneDrive/e_book/教材/常用/阿里巴巴Java开发手册v1.2.0.pdf" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\python_test_local" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main_MA">
-    <configuration name="main_AR" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.test2 (1)">
+    <configuration name="MainComprehensive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project_Red" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,7 +116,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attempt/main_AR.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attempt/MainComprehensive.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,20 +169,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_test_local" />
+    <configuration name="test2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project_Red" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_test_local" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_attempt" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_test_local/test1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_attempt/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test2 (1)" />
         <item itemvalue="Python.main_MA" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.test2" />
-        <item itemvalue="Python.test1" />
-        <item itemvalue="Python.main_AR" />
+        <item itemvalue="Python.MainComprehensive" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +249,40 @@
       <workItem from="1598150727464" duration="11252000" />
       <workItem from="1598193222925" duration="970000" />
       <workItem from="1598235344155" duration="9602000" />
-      <workItem from="1598424583659" duration="5044000" />
+      <workItem from="1598424583659" duration="5232000" />
+      <workItem from="1598507002727" duration="2201000" />
+      <workItem from="1598529634518" duration="32000" />
+      <workItem from="1598529862673" duration="12000" />
+      <workItem from="1598590452415" duration="7415000" />
+      <workItem from="1598664942286" duration="3989000" />
+      <workItem from="1598751646177" duration="3149000" />
+      <workItem from="1598774506779" duration="5181000" />
+      <workItem from="1598787533461" duration="76000" />
+      <workItem from="1598842360962" duration="44000" />
+      <workItem from="1598850192908" duration="2000000" />
+      <workItem from="1598890817779" duration="655000" />
+      <workItem from="1598925461578" duration="2580000" />
+      <workItem from="1598949086854" duration="2361000" />
+      <workItem from="1598957350578" duration="984000" />
+      <workItem from="1599021523789" duration="6854000" />
+      <workItem from="1599030097593" duration="6287000" />
+      <workItem from="1599060825339" duration="3047000" />
+      <workItem from="1599107520688" duration="5107000" />
+      <workItem from="1599223046075" duration="87000" />
+      <workItem from="1599223148150" duration="765000" />
+      <workItem from="1599271830288" duration="1493000" />
+      <workItem from="1599273790021" duration="92000" />
+      <workItem from="1599289169588" duration="2032000" />
+      <workItem from="1599294948513" duration="1211000" />
+      <workItem from="1599372859041" duration="5017000" />
+      <workItem from="1599398224918" duration="1434000" />
+      <workItem from="1599401382527" duration="2035000" />
+      <workItem from="1599461111122" duration="332000" />
+      <workItem from="1599461459888" duration="111000" />
+      <workItem from="1599483238477" duration="5563000" />
+      <workItem from="1599617964537" duration="2000" />
+      <workItem from="1599638193744" duration="2643000" />
+      <workItem from="1599651855723" duration="1830000" />
     </task>
     <task id="LOCAL-00001" summary="添加了用来帮助选择模型的脚本">
       <created>1597846627186</created>
@@ -302,7 +347,63 @@
       <option name="project" value="LOCAL" />
       <updated>1598256626837</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="奇异点发现：图像右偏3个单位&#10;在实验中发现了非常奇怪的问题：图像整体向右偏移了3个单位（原因未知），修改程序将其修正">
+      <created>1598430598862</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598430598862</updated>
+    </task>
+    <task id="LOCAL-00011" summary="马原社会实践：刷问卷">
+      <created>1598601314229</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598601314229</updated>
+    </task>
+    <task id="LOCAL-00012" summary="优化了expected_value_ma()&#10;对expected_value_ma()进行了优化，减少了计算次数">
+      <created>1598786937062</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598786937062</updated>
+    </task>
+    <task id="LOCAL-00013" summary="修改了mainprocess()&#10;修改了mainprocess()：按照expected_value_ma()方法的调整进行了修改&#10;同时基本确定先前发现的右偏3单位的问题是由于滑动平均算法本身的滞后性所造成的，故直接对结果进行修正（修正单位更新为2）">
+      <created>1598787081481</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598787081481</updated>
+    </task>
+    <task id="LOCAL-00014" summary="对expected_value_linear()方法进行调整&#10;删除expected_value_linear()方法中预测部分，仅保留线性模型的训练部分，将预测部分移至main_AR.py中">
+      <created>1598949752184</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1598949752184</updated>
+    </task>
+    <task id="LOCAL-00015" summary="针对expected_value_linear()的调整进行修改&#10;添加了调用模型进行预测的部分">
+      <created>1598949815797</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1598949815797</updated>
+    </task>
+    <task id="LOCAL-00016" summary="做了一些小修改">
+      <created>1598949950371</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1598949950371</updated>
+    </task>
+    <task id="LOCAL-00017" summary="对Meiriyibao(COVID-19).py做出调整，暂时不可使用">
+      <created>1599273862495</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599273862495</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,42 +440,59 @@
     <MESSAGE value="对代码做出了一些小调整" />
     <MESSAGE value="完成了MA的方法整合" />
     <MESSAGE value="Nothing here" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nothing here" />
+    <MESSAGE value="奇异点发现：图像右偏3个单位&#10;在实验中发现了非常奇怪的问题：图像整体向右偏移了3个单位（原因未知），修改程序将其修正" />
+    <MESSAGE value="马原社会实践：刷问卷" />
+    <MESSAGE value="优化了expected_value_ma()&#10;对expected_value_ma()进行了优化，减少了计算次数" />
+    <MESSAGE value="修改了mainprocess()&#10;修改了mainprocess()：按照expected_value_ma()方法的调整进行了修改&#10;同时基本确定先前发现的右偏3单位的问题是由于滑动平均算法本身的滞后性所造成的，故直接对结果进行修正（修正单位更新为2）" />
+    <MESSAGE value="对expected_value_linear()方法进行调整&#10;删除expected_value_linear()方法中预测部分，仅保留线性模型的训练部分，将预测部分移至main_AR.py中" />
+    <MESSAGE value="针对expected_value_linear()的调整进行修改&#10;添加了调用模型进行预测的部分" />
+    <MESSAGE value="做了一些小修改" />
+    <MESSAGE value="对Meiriyibao(COVID-19).py做出调整，暂时不可使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="对Meiriyibao(COVID-19).py做出调整，暂时不可使用" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2310" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597893038390">
+    <state x="1400" y="435" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598529637772">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2310" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597893038390" />
+    <state x="1400" y="435" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598529637772" />
+    <state x="1146" y="296" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599653657624">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="1146" y="296" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1707.920@0.0.1707.920" timestamp="1599653657624" />
+    <state x="2310" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598949885033" />
     <state x="1813" y="100" width="1534" height="1207" key="DiffContextDialog" timestamp="1597819728013">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1813" y="100" width="1534" height="1207" key="DiffContextDialog/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597819728013" />
-    <state x="1711" y="373" key="FileChooserDialogImpl" timestamp="1597847042420">
+    <state x="1711" y="373" key="FileChooserDialogImpl" timestamp="1598774548660">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="849" y="245" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1597738264813" />
-    <state x="1711" y="373" key="FileChooserDialogImpl/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1597847042420" />
-    <state width="3397" height="411" key="GridCell.Tab.0.bottom" timestamp="1598429646481">
-      <screen x="0" y="0" width="3440" height="1400" />
+    <state x="1711" y="373" key="FileChooserDialogImpl/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598774548660" />
+    <state width="1663" height="232" key="GridCell.Tab.0.bottom" timestamp="1599653670656">
+      <screen x="0" y="0" width="1707" height="920" />
     </state>
+    <state width="1663" height="232" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1599653670656" />
     <state width="3397" height="411" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1598010164969" />
-    <state width="3397" height="411" key="GridCell.Tab.0.bottom/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598429646481" />
-    <state width="3397" height="411" key="GridCell.Tab.0.center" timestamp="1598429646480">
-      <screen x="0" y="0" width="3440" height="1400" />
+    <state width="3397" height="403" key="GridCell.Tab.0.bottom/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1599119361360" />
+    <state width="1663" height="232" key="GridCell.Tab.0.center" timestamp="1599653670656">
+      <screen x="0" y="0" width="1707" height="920" />
     </state>
+    <state width="1663" height="232" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1599653670656" />
     <state width="3397" height="411" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1598010164969" />
-    <state width="3397" height="411" key="GridCell.Tab.0.center/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598429646480" />
-    <state width="3397" height="411" key="GridCell.Tab.0.left" timestamp="1598429646480">
-      <screen x="0" y="0" width="3440" height="1400" />
+    <state width="3397" height="403" key="GridCell.Tab.0.center/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1599119361360" />
+    <state width="1663" height="232" key="GridCell.Tab.0.left" timestamp="1599653670656">
+      <screen x="0" y="0" width="1707" height="920" />
     </state>
+    <state width="1663" height="232" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1599653670656" />
     <state width="3397" height="411" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1598010164969" />
-    <state width="3397" height="411" key="GridCell.Tab.0.left/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598429646480" />
-    <state width="3397" height="411" key="GridCell.Tab.0.right" timestamp="1598429646481">
-      <screen x="0" y="0" width="3440" height="1400" />
+    <state width="3397" height="403" key="GridCell.Tab.0.left/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1599119361360" />
+    <state width="1663" height="232" key="GridCell.Tab.0.right" timestamp="1599653670656">
+      <screen x="0" y="0" width="1707" height="920" />
     </state>
+    <state width="1663" height="232" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1599653670656" />
     <state width="3397" height="411" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1598010164969" />
-    <state width="3397" height="411" key="GridCell.Tab.0.right/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598429646481" />
+    <state width="3397" height="403" key="GridCell.Tab.0.right/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1599119361360" />
     <state width="3397" height="539" key="GridCell.Tab.1.bottom" timestamp="1598258443222">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -391,37 +509,42 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state width="3397" height="539" key="GridCell.Tab.1.right/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598258443222" />
-    <state x="1833" y="251" key="SettingsEditor" timestamp="1598182933122">
-      <screen x="0" y="0" width="3440" height="1400" />
+    <state x="570" y="135" key="SettingsEditor" timestamp="1599485158446">
+      <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="570" y="135" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1597738497806" />
-    <state x="1833" y="251" key="SettingsEditor/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598182933122" />
-    <state x="2172" y="432" key="Vcs.Push.Dialog.v2" timestamp="1598256628340">
-      <screen x="0" y="0" width="3440" height="1400" />
+    <state x="570" y="135" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1599485158446" />
+    <state x="1833" y="251" key="SettingsEditor/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598774674727" />
+    <state x="893" y="284" key="Vcs.Push.Dialog.v2" timestamp="1599273864554">
+      <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="2172" y="432" key="Vcs.Push.Dialog.v2/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598256628340" />
-    <state x="2383" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598170164913">
+    <state x="893" y="284" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1599273864554" />
+    <state x="2172" y="432" key="Vcs.Push.Dialog.v2/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598949951732" />
+    <state x="2383" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598949837220">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="2383" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.3440.1400@0.0.3440.1400" timestamp="1597997684878" />
-    <state x="2383" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598170164913" />
+    <state x="2383" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598949837220" />
     <state x="1300" y="355" key="editAsTableFormatDialogDimension" timestamp="1598022913932">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1300" y="355" key="editAsTableFormatDialogDimension/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598022913932" />
-    <state x="1320" y="334" width="672" height="678" key="search.everywhere.popup" timestamp="1598426562505">
+    <state x="1320" y="334" width="672" height="678" key="search.everywhere.popup" timestamp="1598786993029">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1320" y="334" width="672" height="678" key="search.everywhere.popup/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598426562505" />
+    <state x="1320" y="334" width="672" height="678" key="search.everywhere.popup/3440.-3.1707.933/0.0.3440.1400@0.0.3440.1400" timestamp="1598786993029" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Project_Red$main_slope.coverage" NAME="main_slope Coverage Results" MODIFIED="1597830323124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
-    <SUITE FILE_PATH="coverage/Project_Red$main_AR.coverage" NAME="main_AR Coverage Results" MODIFIED="1597892703647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
-    <SUITE FILE_PATH="coverage/Project_Red$test.coverage" NAME="test Coverage Results" MODIFIED="1598255702055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
+    <SUITE FILE_PATH="coverage/Project_Red$main_AR.coverage" NAME="main_AR Coverage Results" MODIFIED="1599291100488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
+    <SUITE FILE_PATH="coverage/Project_Red$test.coverage" NAME="test Coverage Results" MODIFIED="1599487930896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
+    <SUITE FILE_PATH="coverage/Project_Red$MainComprehensive.coverage" NAME="MainComprehensive Coverage Results" MODIFIED="1599291119437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
     <SUITE FILE_PATH="coverage/Project_Red$main.coverage" NAME="main Coverage Results" MODIFIED="1597824496343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
-    <SUITE FILE_PATH="coverage/Project_Red$main_MA.coverage" NAME="main_MA Coverage Results" MODIFIED="1598429646473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
+    <SUITE FILE_PATH="coverage/Project_Red$main_MA.coverage" NAME="main_MA Coverage Results" MODIFIED="1599653378416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
     <SUITE FILE_PATH="coverage/Project_Red$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1598026725565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_test_local" />
+    <SUITE FILE_PATH="coverage/Project_Red$mayuan_project.coverage" NAME="mayuan_project Coverage Results" MODIFIED="1598600805846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../My_project_python" />
     <SUITE FILE_PATH="coverage/Project_Red$lag.coverage" NAME="lag Coverage Results" MODIFIED="1597893889999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
-    <SUITE FILE_PATH="coverage/Project_Red$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1598098922195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_test_local" />
+    <SUITE FILE_PATH="coverage/Project_Red$Meiriyibao_COVID_19_.coverage" NAME="Meiriyibao(COVID-19) Coverage Results" MODIFIED="1599272999558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../My_project_python" />
+    <SUITE FILE_PATH="coverage/Project_Red$test2__1_.coverage" NAME="test2 (1) Coverage Results" MODIFIED="1599653430901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_attempt" />
+    <SUITE FILE_PATH="coverage/Project_Red$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1599461467471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_test_local" />
   </component>
 </project>

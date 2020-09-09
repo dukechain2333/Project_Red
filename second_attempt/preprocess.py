@@ -102,7 +102,6 @@ def expected_value_linear(matrix):
     return model
 
 
-
 def expected_value_ma(matrix):
     """
     计算期望值（MA）
@@ -131,6 +130,7 @@ def expected_value_ma(matrix):
     result = np.zeros([rowNum, colNum])
 
     # 按矩阵的列进行划分运算
+    print('正在进行滑动平均模型运算')
     for col in range(colNum):
         # 进行基于正态分布的滑动平均滤波
         for row in range(rowNum):
@@ -155,6 +155,7 @@ def expected_value_ma(matrix):
                     result[row, col] = ma
                 else:
                     result[row, col] = matrix[row, col]
+    print('滑动平均模型运算已完成')
 
     # 绘图
     # time = np.zeros([rowNum, 1])
