@@ -4,10 +4,6 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.7 (tensorflow)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="My_project_python" />
     <orderEntry type="module" module-name="python_test_local" />
-    <orderEntry type="module" module-name="machine_learning" />
-    <orderEntry type="module" module-name="joyful-pandas" />
-    <orderEntry type="module" module-name="Hands-on-Machine-Learning" />
   </component>
 </module>

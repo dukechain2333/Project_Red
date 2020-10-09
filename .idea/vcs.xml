@@ -2,8 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../Hands-on-Machine-Learning" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../joyful-pandas" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../machine_learning" vcs="Git" />
   </component>
 </project>
