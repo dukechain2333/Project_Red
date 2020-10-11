@@ -173,7 +173,8 @@ if __name__ == '__main__':
     #     print(e.args)
     #     print(traceback.format_exc())
 
-    # data_daily(pro, stocks)
+    data_daily(pro, stocks)
+    time.sleep(60)
     data_weekly(pro, stocks)
     time.sleep(60)
     data_monthly(pro, stocks)
