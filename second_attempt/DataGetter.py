@@ -164,7 +164,6 @@ if __name__ == '__main__':
     pro = ts.pro_api()
     df = ts.get_stock_basics()
     stocks = df.index.tolist()
-
     # try:
     #     _thread.start_new_thread(data_daily, (pro, stocks,))
     #     _thread.start_new_thread(data_weekly, (pro, stocks,))

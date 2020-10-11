@@ -49,5 +49,4 @@ if __name__ == '__main__':
     lag_daily()
     lag_weekly()
     lag_monthly()
-
     print("all done!")

@@ -50,5 +50,4 @@ if __name__ == '__main__':
     daily_series()
     weekly_series()
     monthly_series()
-
     print('all done!')
