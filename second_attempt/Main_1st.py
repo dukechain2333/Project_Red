@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn import preprocessing
-import tushare as ts
+
 
 def mainprocess(data):
     """
@@ -25,7 +25,8 @@ def mainprocess(data):
 
     # 记录数据信息
     rowNum = data.shape[0]
-    colNum = data.shape[1]
+    # colNum = data.shape[1]
+    colNum = 1
 
     # 数据标准化
     scaler = preprocessing.MinMaxScaler()
@@ -81,3 +82,12 @@ def mainprocess(data):
     return resultMatrix_pro
 
 
+if __name__ == '__main__':
+    df = pd.read_csv('D:\\Project_Red\\data_daily\\002047_SZ.csv')
+    data = df['amount']
+    print(data)
+    print(data.shape)
+    data = np.array(data)
+    data = data.reshape(-1, 1)
+    print(data)
+    mainprocess(data)

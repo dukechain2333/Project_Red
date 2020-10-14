@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 from sklearn import preprocessing
 import threading
 import time
+import pandas as pd
 from fastdtw import fastdtw
 
 
@@ -154,6 +155,11 @@ data = np.array([[3052446],
 #     data[i] = np.sin(i) + np.random.normal(0, 0.1)
 
 if __name__ == '__main__':
+
+    df = pd.read_csv('D:\\Project_Red\\data_daily\\002047_SZ.csv')
+    data = df['amount']
+    data = np.array(data)
+    data = data.reshape(-1, 1)
 
     ar = thread_ar(data)
     ma = thread_ma(data)
