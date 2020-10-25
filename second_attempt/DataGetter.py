@@ -113,11 +113,11 @@ def data_monthly(pro, stocks):
         target = str(stock) + '.SH'
         print("月线正在尝试", target)
         times += 1
-        if times % 200 == 0 and times != 0:
+        if times % 120 == 0 and times != 0:
             print('休眠中')
-            time.sleep(40)
+            time.sleep(50)
         try:
-            data = pro.weekly(ts_code=target, start_date='20160809')
+            data = pro.monthly(ts_code=target, start_date='20160809')
             fileName = str(stock) + '_SH'
             filePath = 'D:\\Project_Red\\data_monthly\\' + fileName + '.csv'
             data.to_csv(filePath)
@@ -133,11 +133,11 @@ def data_monthly(pro, stocks):
         target = str(stock) + '.SZ'
         print("月线正在尝试", target)
         times += 1
-        if times % 200 == 0 and times != 0:
+        if times % 120 == 0 and times != 0:
             print('休眠中')
-            time.sleep(40)
+            time.sleep(50)
         try:
-            data = pro.weekly(ts_code=target, start_date='20160809')
+            data = pro.monthly(ts_code=target, start_date='20160809')
             fileName = str(stock) + '_SZ'
             filePath = 'D:\\Project_Red\\data_monthly\\' + fileName + '.csv'
             data.to_csv(filePath)
@@ -172,10 +172,10 @@ if __name__ == '__main__':
     #     print(e.args)
     #     print(traceback.format_exc())
 
-    data_daily(pro, stocks)
-    time.sleep(60)
-    data_weekly(pro, stocks)
-    time.sleep(60)
+    # data_daily(pro, stocks)
+    # time.sleep(60)
+    # data_weekly(pro, stocks)
+    # time.sleep(60)
     data_monthly(pro, stocks)
     print("All done")
 
