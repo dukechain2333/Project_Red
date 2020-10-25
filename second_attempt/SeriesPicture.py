@@ -47,7 +47,7 @@ def monthly_series():
 
 
 if __name__ == '__main__':
-    daily_series()
-    weekly_series()
+    # daily_series()
+    # weekly_series()
     monthly_series()
     print('all done!')

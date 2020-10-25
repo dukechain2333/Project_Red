@@ -1,7 +1,6 @@
 #  @author Duke Chain
 #  @File:preprocess.py
-#  @createTime 2020/08/10 14:32:10
-
+#  @createTime 2020/10/14 13:03:14
 
 import numpy as np
 from sklearn import linear_model
@@ -170,6 +169,3 @@ def expected_value_ma(matrix):
 
     # 返回预测结果
     return result
-
-
-# arch acd
